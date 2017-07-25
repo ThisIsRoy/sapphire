@@ -1,0 +1,250 @@
+
+@media only screen and (max-width: 1463px) {
+	.hero-text-box h1 {
+		font-size: 200%;
+	}
+
+	.project-photo h5 {
+		font-size: 70%;
+	}
+
+	nav .row .logo {
+		margin-top: 10px; 
+	}
+
+	.main-nav {
+		margin-top: 10px;
+	}
+
+}
+
+/*Full devices - 1023px to 1200px*/
+@media only screen and (max-width: 1200px) {
+	.sticky {
+		padding-top: 0;
+		margin-top: 0;
+	}
+
+	.hero-text-box {
+		position: absolute;
+		width: 100%;
+		padding: 0 2%;
+		font-size: 70%;
+	}
+
+	.hero-text-box h1 {
+		width: 100%;
+	}
+
+	.row {
+		padding: 0 2%;
+	}
+
+	.logo {
+		margin-top: 20px;
+	}
+
+	.hero-text-box h1 {
+		padding-left: 80px;
+	}
+
+	.hero-text-box .btn-full{
+		margin-left: 80px;
+	}
+
+
+}
+
+/*Large devices - 767px to 1023px*/
+@media only screen and (max-width: 1023px) {
+	body {
+		font-size: 18px;
+	}
+
+	section {
+		padding: 60px 0;
+	}
+
+	section .section-title {
+		margin-top: 50px;
+	}
+
+	section .project-copy {
+		margin-top: 50px;
+	}
+
+	section .mobile-app {
+		padding-top: 50px;
+	}
+
+	.city-section h2 {
+		padding-top: 50px;
+	}
+
+	.commission-section {
+		margin-bottom: 50px;
+	}
+
+	.commission-section .col {
+		width: 100%;
+	}
+
+	.plans-section {
+		padding-bottom: 80px;
+	}
+
+	.plans-section h2 {
+		padding-top: 50px;
+	}
+
+	.form-section {
+		padding-top: 50px;
+	}
+
+	.map {
+		margin-top: 245px;
+	}
+}
+
+/*Medium devices - 480px to 767px*/
+@media only screen and (max-width: 767px) {
+	body {
+		font-size: 15px;
+	}
+
+	.hero-text-box h1 {
+		font-size: 180%;
+		padding-left: 25px;
+	}
+
+	.hero-text-box .btn{
+		margin-left: 25px;
+	}
+
+	.col {
+		width: 100%;
+		margin: 0 0 4% 0;
+	}
+
+	.logo {
+		margin-top: 2px;
+	}
+
+	.main-nav {
+		display: none;
+	}
+
+	.mobile-nav-icon {
+		display: inline-block;
+	}
+
+	.sticky i {
+		color: #555;
+	}
+
+	.main-nav {
+		float: left;
+		margin: 10px 0;
+	}
+
+	.main-nav li {
+		display: block;
+	}
+
+	.main-nav li a:link,
+	.main-nav li a:link {
+		display: block;
+		border: 0;
+	}
+
+	.team-section p {
+		margin-left: 20px;
+	}
+
+	.team-section .long-copy {
+		margin-left: 100px;
+	}
+
+	.team-section img {
+		margin-bottom: 10px;
+		margin-left: 70px;
+	}
+
+	.city-section {
+		padding-bottom: 15px;
+	}
+
+	.project-section {
+		padding-top: 0;
+	}
+
+	.project-copy {
+		width: 80%;
+		margin: 20px auto;
+	}
+
+	section .section-title {
+		margin-top: 20px;
+	}
+
+	.city-container h3 {
+		margin-left: 10px;
+	}
+
+	.col blockquote {
+		margin-bottom: 20px;
+	}
+
+	.form-section {
+		padding-bottom: 30px;
+	}
+
+	.form-section hr {
+		margin-bottom: 30px;
+	}
+
+	.map {
+		width: 100%;
+		position: relative;
+		margin-top: 0;
+	}
+
+	.form-container {
+		width: 100%;
+		position: relative;
+		margin-top: 20px;
+	}
+
+	.invisible-button {
+		position: absolute;
+	}
+
+	footer .col {
+		width: 50%;
+	}
+}
+
+
+/*Small devices - 0 to 480px*/
+@media only screen and (max-width: 480px) {
+	.team-section .long-copy {
+		margin-left: 60px;
+	}
+
+	.row .steps-box {
+		margin-left: 0;
+	}
+
+	.project-photo h5 {
+		font-size: 50%;
+	}
+
+	.plans-section hr {
+		margin-bottom: 30px;
+	}
+
+	.footer-nav li {
+		margin-right: 3px;
+	}
+}
+
