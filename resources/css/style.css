@@ -18,6 +18,10 @@ html {
 	overflow-x: hidden;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 
 .clearfix {zoom: 1}
 .clearfix:after {
@@ -39,13 +43,14 @@ html {
 
 header {
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/hero.jpeg);
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpeg);
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpeg);
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpeg);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
 	background-attachment: fixed;
 }
-
 
 h1 {
 	margin: 0;
@@ -62,6 +67,7 @@ h1 {
 .hero-text-box {
 	position: absolute;
 	width: 1140px;
+	/*margin: 400px auto 0 auto;*/
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
@@ -534,7 +540,7 @@ cite img {
 /*-----------------------------------------------*/
 .form-section {
 	padding-top: 150px;
-	padding-bottom: 200px;
+	padding-bottom: 330px;
 	position: relative;
 }
 
@@ -548,7 +554,7 @@ cite img {
 	position: absolute;
 	top: 0;
 	left: 0;
-	margin-top: 300px;
+	margin-top: 430px;
 }
 
 
@@ -557,7 +563,7 @@ cite img {
 	top: 0;
 	right: 0;
 	width: 50%;
-	margin: 350px auto 0 auto;
+	margin: 480px auto 0 auto;
 }
 
 .contact-form {
