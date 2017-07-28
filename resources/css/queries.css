@@ -61,6 +61,14 @@
 		font-size: 18px;
 	}
 
+	header {
+		background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/smallhero.jpeg);
+		background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/smallhero.jpeg);
+		background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/smallhero.jpeg);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/smallhero.jpeg);
+
+	}
+
 	.hero-text-box {
 		font-size: 60%;
 	}
@@ -107,6 +115,10 @@
 
 	.map {
 		margin-top: 245px;
+	}
+
+	.form-container {
+		margin-top: 300px;
 	}
 }
 
