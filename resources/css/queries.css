@@ -1,7 +1,9 @@
 
 @media only screen and (max-width: 1463px) {
-	.hero-text-box h1 {
-		font-size: 200%;
+	.hero-text-box {
+		font-size: 80%;
+		margin-left: 30px;
+		margin-right: 30px;
 	}
 
 	.project-photo h5 {
@@ -29,8 +31,9 @@
 		position: absolute;
 		width: 100%;
 		padding: 0 2%;
-		font-size: 70%;
+		font-size: 65%;
 	}
+
 
 	.hero-text-box h1 {
 		width: 100%;
@@ -45,13 +48,17 @@
 	}
 
 	.hero-text-box h1 {
-		padding-left: 80px;
+		padding-left: 70px;
+		padding-right: 50px;
 	}
 
 	.hero-text-box .btn-full{
 		margin-left: 80px;
 	}
 
+	.nav-list {
+		margin-left: 30px;
+	}
 
 }
 
@@ -128,14 +135,26 @@
 		font-size: 15px;
 	}
 
+	.hero-text-box {
+		margin-left: 5px;
+		padding-left: 0;
+	 	margin-right: 20px;
+	 	font-size: 70%;
+	}
+
 	.hero-text-box h1 {
-		font-size: 180%;
-		padding-left: 25px;
+		padding-left: 40px;
+		padding-right: 30px;
+	}
+
+	/*.hero-text-box h1 {
+		font-size: 250%;
+		padding-left: 12px;
 	}
 
 	.hero-text-box .btn{
-		margin-left: 25px;
-	}
+		margin-left: 12px;
+	}*/
 
 	.col {
 		width: 100%;
@@ -167,6 +186,7 @@
 		display: block;
 	}
 
+	
 	.main-nav li a:link,
 	.main-nav li a:link {
 		display: block;
@@ -243,6 +263,19 @@
 
 /*Small devices - 0 to 480px*/
 @media only screen and (max-width: 480px) {
+	.hero-text-box {
+		font-size: 60%;
+	}
+
+
+	.hero-text-box .btn {
+		font-size: 7px;
+	}
+
+	.hero-text-box .btn-full {
+		margin-left: 30px;
+	}
+
 	.team-section .long-copy {
 		margin-left: 60px;
 	}
